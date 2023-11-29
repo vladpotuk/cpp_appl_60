@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Clock">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Clock\Digits">
+      <UniqueIdentifier>{0dc07069-acba-407c-9b00-be36d0909de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clock\Time">
+      <UniqueIdentifier>{7f3ae2cb-5205-46e8-80ce-6cbe5fc06738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{6a39ee01-30b8-4fcb-917b-b2393f361965}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Clock</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Digits.h">
+      <Filter>Clock\Digits</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Clock\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="InnerSize.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
